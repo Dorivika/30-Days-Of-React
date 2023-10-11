@@ -1010,7 +1010,7 @@ const webTechs = [
    - remove 'Honey' if you are allergic to honey
    - modify Tea to 'Green Tea'
 
-1. In countries array check if 'Ethiopia' exists in the array if it exists print 'ETHIOPIA'. If it does not exist add to the countries list.
+1. In countries array check if 'Ethiopia' exists in the array if it exists print 'ETHIOPIA'. If it does not exist add to the countries list. 
 1. In the webTechs array check if Sass exists in the array and if it exists print 'Sass is a CSS preprocess'. If it does not exist add Sass to the array and print the array.
 1. Concatenate the following two variables and store it in a fullStack variable.
 
@@ -1671,11 +1671,11 @@ function letsLearnScope() {
     let b = 20
     let d = 40
     console.log(a, b, c) // Python 20 30
-  }
-  // we can not access c because c's scope is only the if block
-  console.log(a, b) // JavaScript 10
+  } 
+  console.log(a, b, c) // JavaScript 10
 }
 letsLearnScope()
+// we can not access c because c's scope is only the letsLearnScope function block
 console.log(a, b) // JavaScript 10, accessible
 ```
 
